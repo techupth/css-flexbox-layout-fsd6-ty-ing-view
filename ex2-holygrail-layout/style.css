@@ -1,1 +1,66 @@
 /* Start coding here */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+}
+.head,
+.foot,
+.inner-container {
+  text-align: center;
+
+  width: 100vw;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 115, 126);
+  height: 10vh;
+}
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 233, 153);
+  height: 10vh;
+}
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2px;
+  text-align: center;
+  height: 80vh;
+}
+.box1,
+.box2,
+.box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 199, 49);
+}
+.box1 {
+  flex-basis: 20%;
+}
+.box2 {
+  flex-basis: 60%;
+}
+.box3 {
+  flex-basis: 20%;
+}
